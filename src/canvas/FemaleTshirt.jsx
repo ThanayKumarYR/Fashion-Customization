@@ -7,7 +7,7 @@ import state from '../store';
 
 const FemaleTshirt = () => {
   const snap = useSnapshot(state);
-  const { nodes, materials } = useGLTF('/shirt_female.glb');
+  const { nodes, materials } = useGLTF('/Fashion-Customization/shirt_female.glb');
 
   const logoTexture = useTexture(snap.logoDecal);
   const fullTexture = useTexture(snap.fullDecal);
